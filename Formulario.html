@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-    
+
 <head>
   <meta charset="UTF-8">
   <title>Formulario de Transacciones</title>
@@ -33,7 +33,30 @@
     button:hover {
       background-color: #45a049;
     }
+    /* Lista de transacciones */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .income {
+    background-color: #d4edda;
+    color: green;
+  }
+
+  .expense {
+    background-color: #f8d7da;
+    color: red;
+  }
   </style>
+
 
 </head>
 
@@ -57,13 +80,23 @@
   <button type="submit">Guardar</button>
 </form>
 
-<h2>Resumen</h2>
+<h2>Formulario de Transacciones</h2>
+<form>
+  ...
+</form>
 
+<h2>Resumen</h2>
 <div>
   <p>Ingresos: <span id="income">0</span></p>
   <p>Gastos: <span id="expense">0</span></p>
   <p>Saldo: <span id="balance">0</span></p>
 </div>
+
+<h2>Lista de Transacciones</h2>
+<ul>
+  <li class="income">+ $1000 Salario</li>
+  <li class="expense">- $200 Comida</li>
+</ul>
 
 </body>
 </html>
