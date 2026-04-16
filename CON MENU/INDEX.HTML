@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Mi Proyecto Web</title>
+
+    <style>
+        /* RESET */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+        }
+
+        /* 🔹 MENÚ */
+        nav {
+            background: #1e3c72;
+            padding: 15px 0;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #00c6ff;
+        }
+
+        /* CONTENEDOR */
+        .container {
+            max-width: 800px;
+            margin: 80px auto;
+            padding: 30px;
+            text-align: center;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            color: #1e3c72;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 25px;
+            color: #555;
+        }
+
+        button {
+            padding: 12px 25px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background: linear-gradient(135deg, #2a5298, #1e3c72);
+            color: white;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- MENÚ -->
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- CONTENIDO -->
+    <div class="container">
+        <h1>Bienvenido a mi proyecto</h1>
+        <p>Este es un ejemplo funcional con HTML, CSS y JavaScript en un solo archivo.</p>
+
+        <button onclick="saludar()">Haz clic aquí</button>
+    </div>
+
+    <!-- JS -->
+    <script>
+        function saludar() {
+            alert("¡Hola! JavaScript está funcionando correctamente.");
+        }
+    </script>
+
+</body>
+</html>
