@@ -202,6 +202,9 @@ body {
 
 .list-card {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    max-height: 420px;
 }
 
 .list-header {
@@ -222,6 +225,31 @@ body {
     flex-direction: column;
     gap: 12px;
     margin-top: 18px;
+    flex: 1;
+    overflow-y: auto;
+    padding-right: 6px;
+    scrollbar-gutter: stable;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(15, 123, 108, 0.6) rgba(214, 210, 204, 0.5);
+}
+
+.transaction-list::-webkit-scrollbar {
+    width: 10px;
+}
+
+.transaction-list::-webkit-scrollbar-track {
+    background: rgba(214, 210, 204, 0.4);
+    border-radius: 999px;
+}
+
+.transaction-list::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgba(15, 123, 108, 0.75), rgba(15, 123, 108, 0.4));
+    border-radius: 999px;
+    border: 2px solid rgba(214, 210, 204, 0.4);
+}
+
+.transaction-list::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, rgba(15, 123, 108, 0.95), rgba(15, 123, 108, 0.6));
 }
 
 .transaction-item {
