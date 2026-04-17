@@ -228,19 +228,19 @@ Capturar datos al enviar el formulario.
 
 **Precondición:**
 
-* [ ] Formulario funcional
+* [x] Formulario funcional
 
 **Postcondición:**
 
-* [ ] Datos disponibles en JS
+* [x] Datos disponibles en JS
 
 **Criterios de aceptación:**
 
-* [ ] Uso de `addEventListener`
+* [x] Uso de `addEventListener`
 
 **Pruebas:**
 
-* [ ] Console.log de datos
+* [x] Console.log de datos
 
 ### JS: Crear transacción
 
@@ -253,15 +253,15 @@ Agregar transacción al DOM.
 
 **Postcondición:**
 
-* [ ] Transacción visible en lista
+* [x] Transacción visible en lista
 
 **Criterios de aceptación:**
 
-* [ ] Render dinámico correcto
+* [x] Render dinámico correcto
 
 **Pruebas:**
 
-* [ ] Agregar múltiples transacciones
+* [x] Agregar múltiples transacciones
 
 ### JS: Eliminar transacción
 
@@ -274,15 +274,15 @@ Eliminar transacción del DOM.
 
 **Postcondición:**
 
-* [ ] Eliminación correcta
+* [x] Eliminación correcta
 
 **Criterios de aceptación:**
 
-* [ ] Botón eliminar por item
+* [x] Botón eliminar por item
 
 **Pruebas:**
 
-* [ ] Eliminar varias transacciones
+* [x] Eliminar varias transacciones
 
 ### JS: Cálculo de totales
 
@@ -295,15 +295,15 @@ Calcular ingresos, gastos y saldo.
 
 **Postcondición:**
 
-* [ ] Totales correctos
+* [x] Totales correctos
 
 **Criterios de aceptación:**
 
-* [ ] Actualización automática
+* [x] Actualización automática
 
 **Pruebas:**
 
-* [ ] Validar cálculos manualmente
+* [x] Validar cálculos manualmente
 
 ### JS: Actualizar UI del resumen
 
@@ -316,15 +316,15 @@ Mostrar totales en pantalla.
 
 **Postcondición:**
 
-* [ ] UI sincronizada
+* [x] UI sincronizada
 
 **Criterios de aceptación:**
 
-* [ ] Cambios en DOM correctos
+* [x] Cambios en DOM correctos
 
 **Pruebas:**
 
-* [ ] Verificar valores en pantalla
+* [x] Verificar valores en pantalla
 
 ### JS: Persistencia con localStorage
 
@@ -338,15 +338,15 @@ Guardar y recuperar datos.
 
 **Postcondición:**
 
-* [ ] Datos persistentes
+* [x] Datos persistentes
 
 **Criterios de aceptación:**
 
-* [ ] Uso de `localStorage.setItem/getItem`
+* [x] Uso de `localStorage.setItem/getItem`
 
 **Pruebas:**
 
-* [ ] Recargar página y validar datos
+* [x] Recargar página y validar datos
 
 ### JS: Cargar datos al iniciar
 
@@ -359,15 +359,15 @@ Renderizar datos guardados al cargar.
 
 **Postcondición:**
 
-* [ ] Datos visibles al iniciar
+* [x] Datos visibles al iniciar
 
 **Criterios de aceptación:**
 
-* [ ] Render automático
+* [x] Render automático
 
 **Pruebas:**
 
-* [ ] Refrescar navegador
+* [x] Refrescar navegador
 
 ## **Testing / Integración**
 
@@ -405,12 +405,12 @@ Validar inputs.
 
 **Postcondición:**
 
-* [ ] Errores controlados
+* [x] Errores controlados
 
 **Criterios de aceptación:**
 
-* [ ] No permitir campos vacíos
+* [x] No permitir campos vacíos
 
 **Pruebas:**
 
-* [ ] Intentar enviar vacío
+* [x] Intentar enviar vacío
